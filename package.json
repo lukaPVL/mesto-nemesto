@@ -1,0 +1,15 @@
+{
+  "name": "mesto-project",
+  "version": "1.0.0",
+  "description": "Проектная работа Mesto",
+  "main": "src/scripts/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
